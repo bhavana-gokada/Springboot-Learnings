@@ -1,0 +1,12 @@
+package springDemo;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class DetailsController {
+		@RequestMapping("/details")
+		public String getDetails() {
+			return "details";
+		}
+}

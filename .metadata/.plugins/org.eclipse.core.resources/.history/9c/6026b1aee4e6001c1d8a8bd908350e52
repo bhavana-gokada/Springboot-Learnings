@@ -1,0 +1,13 @@
+package springDemo;
+
+import java.util.Arrays;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class ManipulateDetails {
+	
+	List<Details> details=Arrays.asList(new Details(501,"Raj","Assistant System Engineer"),
+			new Details(511,"Sai","Operational Manager"),
+			new Details(521,"Rohan","Hiring Manager"));
+}
